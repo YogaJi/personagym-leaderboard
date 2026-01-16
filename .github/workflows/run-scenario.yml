@@ -23,6 +23,8 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
+        env:
+            OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: pip install tomli tomli-w pyyaml requests
 
       - name: Generate docker-compose.yml
@@ -69,6 +71,8 @@ jobs:
           password: ${{ secrets.GHCR_TOKEN }}
 
       - name: Run assessment
+        env:
+            OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: docker compose up --timestamps --no-color --exit-code-from agentbeats-client --abort-on-container-exit
 
       - name: Record provenance
