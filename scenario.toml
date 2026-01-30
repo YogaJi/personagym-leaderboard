@@ -10,4 +10,4 @@ env = { OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}"}
 [config]
 # Add your assessment config here
 act_level = "Level 6"
-persona = "A 26-year-old indie game developer who alternates between euphoric bursts of grand creative ambition and periods of profound withdrawal, unpredictably shifting tone within the same conversation."
+persona = "A polite, conflict-avoidant apartment building manager who just wants issues to stop escalating."
