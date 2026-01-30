@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/yogaji/personagym-green-agent@sha256:b98d426168831ca368284e5e2a87b9cc55200f3d55def3193b211707fe763434",
+    "baseline_agent": "ghcr.io/yogaji/personagym-purple-agent@sha256:61f59f892caa60808abf4de30a7efa47fcb099d7d15c2be840d2ed216104869c",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-30T17:01:51Z",
+  "github_actions": {
+    "run_url": "https://github.com/YogaJi/personagym-leaderboard/actions/runs/21523796695",
+    "run_logs_url": "https://api.github.com/repos/YogaJi/personagym-leaderboard/actions/runs/21523796695/logs",
+    "ref": "refs/heads/YogaJi-patch-19",
+    "sha": "6fee98cd93b60fb5182be8d47da668b9c0112add",
+    "repository_url": "https://github.com/YogaJi/personagym-leaderboard",
+    "workflow_ref": "YogaJi/personagym-leaderboard/.github/workflows/run-scenario.yml@refs/heads/YogaJi-patch-19",
+    "workflow_sha": "6fee98cd93b60fb5182be8d47da668b9c0112add"
+  }
+}
