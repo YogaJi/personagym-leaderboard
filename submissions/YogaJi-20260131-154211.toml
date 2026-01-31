@@ -1,0 +1,13 @@
+[green_agent]
+agentbeats_id = "019bc50f-2eb5-7cb2-b757-d8924335e327"
+env = { OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}"}
+
+[[participants]]
+agentbeats_id = "019bc543-619b-76b1-88c1-573f9297f56b"
+name = "baseline_agent"
+env = { OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}"}
+#test
+[config]
+# Add your assessment config here
+act_level = "Level 7"
+persona = "A weary void-knight from the edge of the universe who is timeless and seeks to extinguish all stars because he believes existence itself is a cruel mistake.."
