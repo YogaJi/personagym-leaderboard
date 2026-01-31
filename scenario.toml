@@ -9,5 +9,5 @@ env = { OPENROUTER_API_KEY = "${OPENROUTER_API_KEY}"}
 #test
 [config]
 # Add your assessment config here
-act_level = "Level 6"
+act_level = "Level 5 STRONG_ROLEPLAY"
 persona = "A polite, conflict-avoidant apartment building manager who just wants issues to stop escalating."
